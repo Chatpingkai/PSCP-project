@@ -46,8 +46,8 @@ def created_mail():
     app.config['MAIL_PORT'] = 465
     app.config['MAIL_USE_TLS'] = False
     app.config['MAIL_USE_SSL'] = True
-    app.config['MAIL_USERNAME'] = "66070199@kmitl.ac.th"
-    app.config['MAIL_PASSWORD'] = 'pL1brewtsa'
+    app.config['MAIL_USERNAME'] = ""
+    app.config['MAIL_PASSWORD'] = ''
     mail = Mail(app)
     
     return mail
